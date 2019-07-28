@@ -1,0 +1,67 @@
+.wrapper{
+    background-color: #FFFFFF;
+    margin: 20px 80px;
+}
+header{
+    border-bottom: 5px solid #7d97ad;
+}
+.Myname{
+    float: right;
+}
+.Myname h1, h3{
+    margin: 15px 0px 0px 0px;
+    text-align: end;
+}
+/* img{
+    margin-left: 70px;
+} */
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+h3{
+    color: #2d3c49;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+#big-pic img{
+    /* background-size:100%; */
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    margin-right: 50px;
+}
+main h1{
+    color: #7d97ad;
+    margin-left: 10px;
+}
+.work-list h1, p{
+   text-align: center;
+}
+
+article{
+    width: 100%;
+}
+@media screen and (min-width: 900px){
+.work-list{
+        display: flex;
+}
+
+#app-logo, #sunflower-logo, #hack-logo{
+    width: 33.33%;
+    
+}
+}
+.work-list img{
+    width: 250px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.work-list h1{
+    color: #2d3c49;
+
+}
